@@ -1,0 +1,6 @@
+framework module TXLiteAVSDK_Enterprise {
+    umbrella header "TXLiteAVSDK.h"
+    exclude header "TXLiteAVEncodedDataProcessingListener.h"
+    exclude header "TXLiteAVBuffer.h"
+    export *
+}
