@@ -148,7 +148,7 @@ typedef void (^TXAudioMusicCompleteBlock)(NSInteger errCode);
  * 同时也需要注意，并非所有的手机开启此特效后都能达到优秀的耳返效果，我们已经对部分耳返效果不佳的手机屏蔽了该特效。
  *
  * @note 仅在主播佩戴耳机时才能开启此特效，同时请您提示主播佩戴有线耳机。
- * @param enable true：开启；false：关闭。
+ * @param enable YES：开启；NO：关闭。
  */
 - (void)enableVoiceEarMonitor:(BOOL)enable;
 
